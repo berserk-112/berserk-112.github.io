@@ -18,7 +18,7 @@
 <meta property="og:image" content="http://example.com/img/front.jpg">
 <meta property="og:image" content="http://example.com/img/finsh.jpg">
 <meta property="article:published_time" content="2024-06-11T11:29:42.000Z">
-<meta property="article:modified_time" content="2024-06-20T03:19:59.104Z">
+<meta property="article:modified_time" content="2024-06-20T04:50:45.822Z">
 <meta property="article:author" content="berserk">
 <meta property="article:tag" content="折腾">
 <meta name="twitter:card" content="summary">
@@ -243,7 +243,7 @@
 <td>10503</td>
 </tr>
 </tbody></table>
-<p>不加显示器8501元<br>为啥选闪鳞G200机箱呢，是因为这个机箱可以使用标准的atx3.0电源，并且最大支持显卡长度为27mm的显卡，基本上双风扇的显卡都能塞下了兼容性很高。</p>
+<p>不加显示器8971元<br>为啥选闪鳞G200机箱呢，是因为这个机箱可以使用标准的atx3.0电源，并且最大支持显卡长度为27mm的显卡，基本上双风扇的显卡都能塞下了兼容性很高。</p>
 <h2 id="装机"><a href="#装机" class="headerlink" title="装机"></a>装机</h2><h3 id="01"><a href="#01" class="headerlink" title="01"></a>01</h3><p>盼了几天东西陆续到了，周六上午收了最后一个快递，下午正式开始了装机。<del>itx装起来就是费劲</del><br>边看<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1BG4y137mG">硬件茶谈的装机视频</a>，边把cpu，散热器、内存条、硬盘和显卡装好后，就急着把供电线接好，试下看是否能点亮显示器。满怀期待的用钥匙短接了开机针脚，果然不出所料屏幕没亮。由于我买的cpu没有核显，所以我也无法确定是显卡的问题还是cpu等其他配件的问题。好在这块主板上有故障灯，联系了客服才知道是显卡的问题。赶紧重新插拔了显卡，又换了根供电线，再次尝试开机，终于精粤logo出现了，长舒一口气啊。<br><img src="/img/debug-light.jpg" alt="主板故障灯">  </p>
 <h3 id="02"><a href="#02" class="headerlink" title="02"></a>02</h3><p>能点亮只是完成了一小步，接下来把主板和显卡塞进这小小的itx小主机里才是折磨。<br>把主板塞进机箱后，才发现主板和机箱连接的四个螺丝只能拧三个，角落里的一个螺丝由于离机箱顶部太近了，没法拧。没办法为了拧这个螺丝，只能把机箱给拆了。<br>这款机箱需要把电源前置到机箱正面，然后通过机箱背后上方的电源延长线连接电源。想要固定机箱需要拧下和机箱框架连接的一个电源支撑架大概6个螺丝，完了再把电源用螺丝拧到这个支撑架上，最后再拧回到机箱上。一顿拧螺丝后，电源是固定的挺好了，一看延长线忘记先插在电源上了。得了，再拧下来吧。。。<br>好在显卡安装还是较为顺利的，就是背部走线太捉襟见肘。<br><img src="/img/back.jpg" alt="机箱背部走线"><br><img src="/img/front.jpg" alt="机箱侧面"><br>大概13点开始装机，到19点左右才完全装好<br><img src="/img/finsh.jpg" alt="完成图"></p>
 <h3 id="03"><a href="#03" class="headerlink" title="03"></a>03</h3><p>装完机迫不及待就进行烤机了，发现机箱温度还挺高的，CPU都86度了，比我之前看的测评视频温度高多了。搜索一圈发现，原来b760主板给CPU的默认电压太高了，可以适当降低点电压，同时也不会太影响CPU的性能。<br>我这7000频率的内存条进系统一看，频率才5600。进BIOS里开启xmp，结果居然开不了机。没法只能清空下cmos来恢复默认设置，看下了主板上cmos的电源是通过排插连接到主板上的，只是要扣下插头操作空间实在是太小了。含泪，继续拆机箱吧。折腾完后才想起来找个调整内存频率的视频教程看看，才知道现在主板背板上都有一键清除CMOS的开关了。。。</p>
